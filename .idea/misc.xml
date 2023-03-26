@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/circle_next_btn.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/full_semi_rounded_corner.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_blue.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_green.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_yellow.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/rounded_corner.xml" value="0.124" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/semi_rounded_corner.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/tick.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_authentication.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_tour.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/custom_dialog.xml" value="0.11302083333333333" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/custom_progress.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/custom_toast.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_authenticate.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_login.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_three.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_two.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

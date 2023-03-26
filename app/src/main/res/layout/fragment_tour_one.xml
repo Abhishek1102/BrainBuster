@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/_12sdp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/white"
+    tools:context=".fragment.TourOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/ic_learning_bro" />
+
+        <com.example.brainbuster.customfont.CustomTextViewBold
+            style="@style/black_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.05"
+            android:text="@string/welcome_to_the_world_of_knowledge"
+            android:textColor="@color/violetPrimary1" />
+
+        <com.example.brainbuster.customfont.CustomTextViewMedium
+            style="@style/black_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.03"
+            android:text="@string/we_will_help_you_to_increase_your_knowledge_that_will_hange_your_life" />
+
+        <LinearLayout
+            android:id="@+id/lv_next"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/circle_next_btn"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/next_arrow_white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.example.brainbuster.customfont.CustomTextViewSemiBold
+        android:id="@+id/tv_skip"
+        style="@style/black_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="@string/skip"
+        android:padding="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/yellowPrimary1" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BrainBuster</string>
+    <string name="appName">Brain Buster</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tag_line">\" Test your knowledge, challenge your mind\nUnlock your inner genius with our quiz app \"</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="become_a_member">Become a Member!</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="your_name">Your name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_u2192">Log in →</string>
+    <string name="sign_up_u2192">Sign up →</string>
+    <string name="by_registering_you_are_agreeing_to_our_terms_of_use_and_privacy_policy">By registering, you are agreeing to our terms of use and privacy policy.</string>
+    <string name="welcome_to_the_world_of_knowledge">Welcome to the World of Knowledge</string>
+    <string name="we_will_help_you_to_increase_your_knowledge_that_will_hange_your_life">We will help you to increase your knowledge that will hange your life.</string>
+    <string name="compete_with_others_around_the_world">Compete with Others around the world</string>
+    <string name="challenge_others_to_test_your_knowledge_and_defeat_them">Challenge others to test your knowledge and defeat them</string>
+    <string name="gain_knowledge_from_anywhere">Gain Knowledge from anywhere</string>
+    <string name="answer_questions_and_gain_knowledge_by_playing">Answer questions and gain knowledge by playing</string>
+    <string name="skip">Skip</string>
+    <string name="let_s_play">Let\'s Play</string>
+    <string name="password_must_contain_a_symbol">password must contain a symbol</string>
+    <string name="password_must_contain_atleast_one_digit">password must contain atleast one digit</string>
+    <string name="password_must_contain_atleast_one_lowercase_letter">password must contain atleast one lowercase letter</string>
+    <string name="password_must_contain_atleast_one_uppercase_letter">password must contain atleast one uppercase letter</string>
+    <string name="password_must_have_atleast_8_characters">password must have atleast 8 characters</string>
+    <string name="please_enter_valid_email_to_continue">please enter valid email to continue</string>
+</resources>

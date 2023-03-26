@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="@dimen/_12sdp"
+    tools:context=".fragment.AuthenticateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_loginBg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:src="@drawable/ic_mobile_login_bro" />
+
+
+            <com.example.brainbuster.customfont.CustomTextViewBold
+                android:id="@+id/tv_apptitle"
+                style="@style/black_26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_loginBg"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:text="@string/appName"
+                android:textColor="@color/yellowPrimary1" />
+
+            <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                android:id="@+id/tv_tagline"
+                style="@style/black_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_apptitle"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:text="@string/tag_line"
+                android:textColor="@color/violetPrimary2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_tagline"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:backgroundTint="@color/violetPrimary2"
+                android:paddingVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_4sdp"
+                app:cardElevation="0dp">
+
+                <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                    style="@style/white_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_6sdp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/login"
+                    android:textColor="@color/white" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_login"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:backgroundTint="@color/yellowPrimary2"
+                app:cardCornerRadius="@dimen/_4sdp"
+                app:cardElevation="0dp">
+
+                <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                    style="@style/white_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_6sdp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/white" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

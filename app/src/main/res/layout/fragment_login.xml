@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    tools:context=".fragment.LoginFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:src="@drawable/ic_mobile_login_amico" />
+
+            <com.example.brainbuster.customfont.CustomTextViewBold
+                style="@style/black_26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:text="@string/welcome_back"
+                android:textColor="@color/yellowPrimary1" />
+
+            <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                style="@style/black_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="true"
+                android:text="@string/login_to_your_account"
+                android:textColor="@color/violetPrimary1" />
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                style="@style/black_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:includeFontPadding="false"
+                android:text="@string/email_address"
+                android:textColor="#D76C757D" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:background="@drawable/semi_rounded_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/_10sdp">
+
+                <com.example.brainbuster.customfont.CustomEdittext
+                    android:id="@+id/edt_loginEmail"
+                    style="@style/black_10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="0.80"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="john@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:paddingVertical="@dimen/_8sdp" />
+
+                <ImageView
+                    android:id="@+id/iv_emailviolet"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:paddingVertical="@dimen/_6sdp"
+                    android:src="@drawable/email_violet" />
+            </LinearLayout>
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                android:id="@+id/tv_emailValidation"
+                style="@style/black_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:includeFontPadding="false"
+                android:text="@string/please_enter_valid_email_to_continue"
+                android:textColor="@color/red1"
+                android:visibility="gone" />
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                style="@style/black_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:includeFontPadding="false"
+                android:text="@string/password"
+                android:textColor="#D76C757D" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:background="@drawable/semi_rounded_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/_10sdp">
+
+                <com.example.brainbuster.customfont.CustomEdittext
+                    android:id="@+id/edt_loginPassword"
+                    style="@style/black_10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="0.80"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="john1123"
+                    android:inputType="textPassword"
+                    android:paddingVertical="@dimen/_8sdp" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seenviolet"
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:src="@drawable/seen" />
+
+                    <ImageView
+                        android:id="@+id/iv_unseenviolet"
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:src="@drawable/unseen"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                android:id="@+id/tv_passwordValidation"
+                style="@style/black_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:includeFontPadding="false"
+                android:text="please enter valid password to continue"
+                android:textColor="@color/red1"
+                android:visibility="gone" />
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                android:id="@+id/tv_forgotPassword"
+                style="@style/black_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingStart="@dimen/_5sdp"
+                android:text="@string/forgot_password" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp">
+
+                <View
+                    android:id="@+id/view_start"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.40"
+                    android:background="@color/gray_light_dark" />
+
+                <com.example.brainbuster.customfont.CustomTextViewMedium
+                    android:id="@+id/tv_or"
+                    style="@style/black_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.20"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:text="@string/or" />
+
+                <View
+                    android:id="@+id/view_end"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.40"
+                    android:background="@color/gray_light_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_loginGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/semi_rounded_corner">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/google" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/full_semi_rounded_corner"
+                android:paddingVertical="@dimen/_8sdp">
+
+                <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                    style="@style/white_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/log_in_u2192" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:gravity="center">
+
+                <com.example.brainbuster.customfont.CustomTextView
+                    style="@style/black_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="@string/don_t_have_an_account" />
+
+                <com.example.brainbuster.customfont.CustomTextViewMedium
+                    android:id="@+id/tv_GoToSignup"
+                    style="@style/black_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:paddingHorizontal="@dimen/_3sdp"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/violetPrimary1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

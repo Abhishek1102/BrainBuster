@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925114036452",
+    "project_id": "brainbuster-37da9",
+    "storage_bucket": "brainbuster-37da9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925114036452:android:16ff461bff3ed5533e7cf1",
+        "android_client_info": {
+          "package_name": "com.example.brainbuster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925114036452-ur32s28rhpke3vclpdqlnk4gledms3uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brainbuster",
+            "certificate_hash": "c641d150f28876c05680bcfa692af4eaecf6da30"
+          }
+        },
+        {
+          "client_id": "925114036452-84u0l5pg4knqpnrjqfbhffr6gv24moag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY6HWVRfhnFAcRgNL8DF4iy-fTVmHuEEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925114036452-84u0l5pg4knqpnrjqfbhffr6gv24moag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
