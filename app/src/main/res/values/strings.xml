@@ -34,4 +34,9 @@
     <string name="password_must_contain_atleast_one_uppercase_letter">password must contain atleast one uppercase letter</string>
     <string name="password_must_have_atleast_8_characters">password must have atleast 8 characters</string>
     <string name="please_enter_valid_email_to_continue">please enter valid email to continue</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="more">More</string>
 </resources>

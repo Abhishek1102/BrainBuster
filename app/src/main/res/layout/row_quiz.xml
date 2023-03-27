@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_marginStart="@dimen/_12sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/_6sdp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/lv_quiz_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_quizThumbnail"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/science_quiz"/>
+
+            <com.example.brainbuster.customfont.CustomTextViewSemiBold
+                android:id="@+id/tv_quiz_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Science Quiz"
+                android:gravity="center"
+                style="@style/white_12"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
