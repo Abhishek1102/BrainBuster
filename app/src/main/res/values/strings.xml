@@ -39,4 +39,10 @@
     <string name="my_profile">My Profile</string>
     <string name="settings">Settings</string>
     <string name="more">More</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="sure_to_logout">Are you sure want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

@@ -8,12 +8,17 @@
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_blue.xml" value="0.1435" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_green.xml" value="0.1435" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/gradient_yellow.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/option_item_bg.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/option_item_selected_bg.xml" value="0.1435" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/rounded_card_result.xml" value="0.1435" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/rounded_corner.xml" value="0.124" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/semi_rounded_corner.xml" value="0.1435" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/drawable/tick.xml" value="0.1435" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_authentication.xml" value="0.24010416666666667" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_questions.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_result.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/activity_tour.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/custom_dialog.xml" value="0.11302083333333333" />
@@ -21,7 +26,7 @@
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/custom_toast.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_authenticate.xml" value="0.24010416666666667" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_favourites.xml" value="0.24010416666666667" />
-        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_login.xml" value="0.24010416666666667" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_more.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_my_profile.xml" value="0.25416666666666665" />
@@ -31,6 +36,7 @@
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_one.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_three.xml" value="0.25416666666666665" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/fragment_tour_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/row_option.xml" value="0.253125" />
         <entry key="..\:/MyKotlinProjects/BrainBuster/app/src/main/res/layout/row_quiz.xml" value="0.25416666666666665" />
       </map>
     </option>

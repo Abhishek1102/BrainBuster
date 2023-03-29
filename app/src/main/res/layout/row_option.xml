@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_12sdp">
+
+    <com.example.brainbuster.customfont.CustomTextViewMedium
+        android:id="@+id/tv_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A: Lion"
+        style="@style/black_14"
+        android:padding="@dimen/_15sdp"
+        android:includeFontPadding="false"/>
+
+</LinearLayout>

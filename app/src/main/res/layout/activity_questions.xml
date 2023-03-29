@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_12sdp"
+    tools:context=".activity.QuestionsActivity">
+
+    <com.example.brainbuster.customfont.CustomTextViewSemiBold
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who is the King of the jungle ?"
+        style="@style/black_18"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:includeFontPadding="false"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lv_buttons"
+        android:layout_below="@+id/tv_description"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/lv_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_previous"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:backgroundTint="@color/gray_light_dark"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardElevation="0dp">
+
+            <com.example.brainbuster.customfont.CustomTextViewMedium
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/previous"
+                android:gravity="center"
+                android:layout_marginVertical="@dimen/_6sdp"
+                style="@style/black_12"
+                android:includeFontPadding="false"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/_5sdp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_light_dark"
+                app:cardCornerRadius="@dimen/_4sdp"
+                app:cardElevation="0dp">
+
+                <com.example.brainbuster.customfont.CustomTextViewMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    style="@style/black_12"
+                    android:layout_marginVertical="@dimen/_6sdp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_light_dark"
+                app:cardCornerRadius="@dimen/_4sdp"
+                android:visibility="gone"
+                app:cardElevation="0dp">
+
+                <com.example.brainbuster.customfont.CustomTextViewMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit"
+                    style="@style/black_12"
+                    android:layout_marginVertical="@dimen/_6sdp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
